@@ -1,4 +1,11 @@
 
+#cryptocurrency 
+#lefttech 
+#laborvouchers
+#meansofproduction
+#economics 
+#librarysocialism
+
 ## Cryptocurrency in library socialism
 
 

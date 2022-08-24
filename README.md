@@ -1,1 +1,4 @@
 # website
+
+#meansofproduction 
+#librarysocialism 

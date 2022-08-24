@@ -1,3 +1,8 @@
+#meansofproduction 
+#librarysocialism 
+#lefttech 
+
+
 <!-- Output copied to clipboard! -->
 
 <!-----

@@ -110,3 +110,7 @@ _this should be far less than the amount of value the total labor token pool rep
 #### Question - 
 should labor go through the library for safety, or be allowed to transfer?
 if to transfer, can we do ensure they can ONLY transfer to wallets with a MOP membership token?
+
+#cryptocurrency 
+#librarysocialism 
+#meansofproduction 
