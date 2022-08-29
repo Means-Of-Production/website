@@ -3,6 +3,7 @@
 #realestate 
 #rent
 #economics
+#theory 
 
 
 
@@ -72,4 +73,4 @@ The renter now can receive the part of the house which they paid for with their 
 
 The landlord can escape exploiting their fellow workers.  In addition, this can offer a significant competitive advantage to attracting renters, since other landlords offer no return of equity to the tenant. \
  \
-The landlord does
+The landlord does get the benefit of, in the US, retaining the mortgage deduction of interest on the mortgage from their income tax.  This is offset as they are responsible for the sale of the property.
