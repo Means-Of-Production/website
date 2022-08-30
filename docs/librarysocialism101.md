@@ -1,7 +1,7 @@
  
 
 
-#library 
+#librarysocialism 
 #lefttech 
 #theory
 
@@ -27,8 +27,10 @@ Usufruct is the key to library socialism - and how it can radically change the n
 
 Unlike the myth of capitalism, where work is rewarded, the nature of capitalism is that ownership of tools, the means of production, and sufficient resources to keep workers alive while they create goods and services is the claim to the profits that capitalists claim as their property (see [surplus value](https://en.wikipedia.org/wiki/Surplus_value)). 
 
+Library socialism instead offers another means of distributing goods, both capital and consumer.  It offers to make us all much richer on average by ensuring that goods and services are distributed to where they solve the most needs, not just generate the most profits.  And by sharing items, it means that fewer items can satisfy the wants of a society completely.  
+
 #### abusus
-Library socialist does remove the right of abusus, Latin for abuse.  This is the right to destroy or deny property to others.  It is also the right that is necessary in order to exploit labor.  
+Library socialism does remove the right of abusus, Latin for abuse.  This is the right to destroy or deny property to others.  It is also the right that is necessary in order to exploit labor.  
 
 Take the simplest example of a farm employing labor.  The farmer is unable to work so much land themselves, which is why they seek to employ labor to begin with, expecting that the profit of that labor will be greater than the cost in paying for it.  Assuming the laborer is not currently starving, though, why would they not simply use the unused land and grow food for themselves, keeping the amount they would have to pay to the farmer?
 
@@ -42,7 +44,7 @@ Given this, it's quite easy to see that this principle *already* exists in publi
 
 
 ### Irreducible Minimum
-The irreducible minimum is a concept similar to that of Universal Basic Income - but instead of universal inputs, we aim for universal means.[^1]  So instead of providing a check for $2000 a month (much of which will be captured immediately by landlords), we instead say that every member of the society should be able to sleep indoors, in a private room, etc.
+The irreducible minimum is a concept similar to that of Universal Basic Income - but instead of universal inputs, we aim for universal outcomes.[^1]  So instead of providing a check for $2000 a month (much of which will be captured immediately by landlords), we instead say that every member of the society should be able to sleep indoors, in a private room, etc.
 
 This may sound idealistic, but note that also while certain numbers are not flexible (the number of calories a human needs, etc), for many others we can start with low levels, and increase this minimum as the wealth of the library society increases.   
 
@@ -60,7 +62,9 @@ Related to this is a claim that, absent the coercion of starvation or homelessne
 #### consumable items
 This area often brings up one of the most common objections to library socialism - namely, what about items that are not to be returned?  What about food?
 
-Many current movements seek to escape this through a foundation as a gift economy.  This is not incompatible with library socialism - a gift, after all, is simply a loan that never expires.  In most current societies, there are more than enough calories produced to support every person - the issue is instead with distribution.
+Many current movements seek to escape this through a foundation as a gift economy.  This is not incompatible with library socialism - a gift, after all, is simply a loan that never expires.  A loan is probably a more preferable structure, actually - since it can require that the item is not put into the capitalist system when the recipient is done with it, but instead is returned to the alternative system instead.
+
+In most current societies, there are more than enough calories produced to support every person - the issue is instead with distribution.
 
 Another way to see this is that even consumables are returned, in an ecological sense.  As said by the SRSLY Wrong hosts in response to a heckler, the only way to avoid returning food in a library society is to refuse to compost or flush your waste, and store it in jars.  As most people would prefer NOT to hoard their feces, seeing food as borrowed becomes more natural.
 
@@ -71,7 +75,7 @@ Complementarity is partially an idea that differences in a non-hierarchical orga
 As an example within a library, imagine ebooks where not only can highlights be shared (like today's Kindle offers), but margin notes can be shared, commented and responded to and edited, etc.  The original authors work is being continously enhanced and added to (complemented) by the actions of the borrowers, who move beyond the simple passive consumers of the capitalist system.  
 
 #### efficiency in library socialism over capitalism
-Library socialism can offer a system which actually offers great efficiencies, unlike capitalism which claims to do so but often spends massive resources making things LESS useful in order to protect property rights of [[librarysocialism101#Abusus|Abusus]].  One example in today's libraries is Digital Rights Management for ebooks.  Apps such as Libby are unweildy to use precisely because the supply is artificially limited, and must spend massive amounts of engineering simply to prevent the rentention of a book.
+Library socialism can offer a system which actually offers great efficiencies, unlike capitalism which claims to do so but often spends massive resources making things LESS useful in order to protect property rights of [[librarysocialism101#Abusus|Abusus]].  One example in today's libraries is Digital Rights Management for ebooks.  Apps such as Libby are unweildy to use precisely because the supply is artificially limited, and must spend massive amounts of engineering simply to prevent the rentention of a book.  Instead greater plenty is possible by removing property rights, namely that of copyright, while the [[librarysocialism101#Irreducible Minimum|irreducible minimum]] solves the issue of how creators can be supported.  Further rewards can of course be given by the society to producers - but there is no reason to artificially limit supply of creative works simply to force a price.
 
 
 
