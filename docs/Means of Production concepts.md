@@ -4,19 +4,33 @@
 
 - [[#Entities|Entities]]
 	- [[#Entities#Thing|Thing]]
+		- [[#Thing#Thing Status|Thing Status]]
 		- [[#Thing#Title|Title]]
 	- [[#Entities#Library|Library]]
-	- [[#Entities#Borrower|Borrower]]
-	- [[#Entities#Loan|Loan]]
+- [[#Lender|Lender]]
+	- [[#Lender#Borrower|Borrower]]
+	- [[#Lender#Loan|Loan]]
+		- [[#Loan#Loan Status|Loan Status]]
 		- [[#Loan#Gifts/consumables|Gifts/consumables]]
 		- [[#Loan#Return locations|Return locations]]
-	- [[#Entities#Waiting Lists|Waiting Lists]]
+	- [[#Lender#Waiting Lists|Waiting Lists]]
+	- [[#Lender#Fees|Fees]]
+		- [[#Fees#Fee status|Fee status]]
+- [[#Factories|Factories]]
+	- [[#Factories#Fee schedules|Fee schedules]]
+	- [[#Factories#Money Factory|Money Factory]]
 - [[#Services|Services]]
 	- [[#Services#Geocoder|Geocoder]]
 	- [[#Services#Notifications|Notifications]]
 	- [[#Services#Bidding strategy|Bidding strategy]]
 		- [[#Bidding strategy#Regular Bidding Strategy|Regular Bidding Strategy]]
 		- [[#Bidding strategy#Quadratic Bidding Strategy|Quadratic Bidding Strategy]]
+- [[#Value items|Value items]]
+	- [[#Value items#Money|Money]]
+		- [[#Money#Physical Location|Physical Location]]
+	- [[#Value items#Time interval|Time interval]]
+	- [[#Value items#DueDate|DueDate]]
+
 
 
 ## Entities
@@ -76,6 +90,16 @@ A waiting list is how libraries deal with scarcity among their items, where more
 
 They can operate on many different principles, from simple lines (you put your name down and wait your turn) to quadartic bidding based upon labor vouchers.
 
+### Fees
+Fees are charged, depending on the library, when items are destroyed, damaged, or returned late.
+
+Optionally some libraries can charge fees for services if needed
+
+#### Fee status
+- OUTSTANDING 
+- PAID
+- FORGIVEN
+
 ## Factories
 ### Fee schedules
 Determines how a library will assess fees for lost, damaged, or overdue items.
@@ -105,7 +129,7 @@ An auction, however the amount that a bid is counted at halves for every previou
 
 So if a user bids $100, but has also held the item for the last 2 turns, the effective bid is $25, even though they would need to pay $100 for this bid.  If another user bids $30, they would instead win the auction and get the item next.  Examined in detail in [[meansofproduction/website/docs/cryptocurrency]]
 
-#### Value items
+## Value items
 ### Money
 money can mean either usual currency, like USD or Euros, or also cryptocurrency.  [[meansofproduction/website/docs/cryptocurrency]] has proposed methods of using cryptocurrency for labor vouchers within a library, for example.
 
@@ -114,6 +138,11 @@ Money is held within an object to ensure that different currencies and values ca
 #### Physical Location
 Where something is located on earth.  Ideally should be translated to lat/long, even if given in address.
 
+### Time interval
+Defined here since Javascript can vary on this.  Represents time elapsed between two times.
+
+### DueDate
+When an item is due back.  Can be null to represent no date is set.
 
 
 
