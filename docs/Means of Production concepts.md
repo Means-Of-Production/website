@@ -30,6 +30,8 @@
 		- [[#Money#Physical Location|Physical Location]]
 	- [[#Value items#Time interval|Time interval]]
 	- [[#Value items#DueDate|DueDate]]
+- [[Means of Production concepts#Status Flow Diagram|Status Flow Diagram]]
+
 
 
 
@@ -143,6 +145,10 @@ Defined here since Javascript can vary on this.  Represents time elapsed between
 
 ### DueDate
 When an item is due back.  Can be null to represent no date is set.
+
+## Status Flow Diagram
+![[status_change_overview.png]]
+
 
 
 
