@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+$font-family-base: "Poppins", sans-serif;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-color: $gray-900;
+  color: $gray-200;
+}
