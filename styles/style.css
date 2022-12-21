@@ -10770,9 +10770,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --bs-light-rgb: 255, 255, 255;
+  --bs-dark-rgb: 52, 58, 64;
+  --bs-link-color: #46C2CB ;
+}
+
 body {
-  background-color: #212529;
-  color: #e9ecef;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+title {
+  margin-top: 5rem;
+}
+
+h1, .h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2, .h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3, .h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

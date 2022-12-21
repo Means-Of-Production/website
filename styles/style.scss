@@ -1,10 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 $font-family-base: "Poppins", sans-serif;
+$background-dark: #343a40; // $gray-800
+$color-dark: #ffffff; // white
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
+:root {
+  // controls bg-light background color
+  --bs-light-rgb: 255, 255, 255;
+  // controls bg-dark background color
+  --bs-dark-rgb: 52, 58, 64;
+  --bs-link-color: #46C2CB
+}
+
 body {
-  background-color: $gray-900;
-  color: $gray-200;
+  background-color: $background-dark;
+  color: $color-dark;
+}
+
+title {
+  margin-top: 5rem;
+}
+
+h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
