@@ -72,110 +72,87 @@
         <p>Labor tokens are similar to the idea of labor vouchers used in many forms of socialist theory. We recognize
             this when people do useful work for the library by issuing them labor tokens. We denominate these in hours.</p>
         <p>Labor tokens are also <b>non-transferable</b>. The library issues these to the wallet of the person who did the work, and that person can, from there **only** transfer them back to the library (smart contracts allow us to enforce this restriction). This restriction prevents their use as cash and prevents users from hoarding them to use for the exploitation of the labor of others. It also ensures that the library can enforce a policy regarding labor tokens.
-
-
-
-
-
-#### Uses of labor tokens
-
-
-
-
-
-##### Fines and fees
-
-
-
-During the use of the library, a member may damage, lose, or return late items. To discourage this, the library can impose fines to remain in good standing and be able to use things and vote. Users pay these fines using labor tokens. If a member does not have labor tokens, they can instead obtain them by donating money or items to the library and exchanging the proceeds of that for labor tokens (discussed under Capital Tokens)
-
-
-
-A library may also want to create a base cost of use for its members - this membership fee would function exactly as a fine and require labor tokens to pay. 
-
-
-
-
-
-##### Withdrawals
-
-Users may transfer labor tokens for other cryptocurrencies (and eventually to cash) at the library’s discretion. This rate, set democratically by the library as a whole, is the wage rate the library pays people for work. The library must be careful to ensure that it has enough free resources to pay out any labor tokens - and if withdrawals reduce library funds, then this exchange rate should fall. This price mechanism can help to prevent total withdrawals. The library may also set the exchange rate to automatically update with withdrawals, decreasing the exchange value of labor tokens if withdrawal rates increase and lowering the rate if withdrawals reduce.
-
-
-
-
-
-
-
-##### line skipping auctions
-
-
-
-Labor tokens also have another use within the library - line skipping. 
-
-In a library, more members will demand some items than we can supply at once. We usually deal with this through **waiting lists** - as people use and return the item, the people waiting for the thing get their turn in the order they requested. 
-
-However, to incentivize doing labor for the library, the labor token offers the holders another option - they can instead bid to have the next loan go to someone else. 
-
-Note that in this auction, a person does not have to bid only for themselves - they can bid for someone else to be given the next loan, and the total amount of bids for each person will determine who gets it. This ability to bid for others allows people who wish to work together to borrow library resources they will mutually benefit from while still keeping labor tokens non-transferable.
-
-
-
-When the current loan expires and the item is marked as ready to loan, the library loans the article to the member who has the most tokens bid for the next turn and transfers any tokens bid for that member to the wallet of the library.
-
-
-
-Tokens will be held in escrow during an auction to prevent double bidding of the same tokens.
-
-
-
-
-
-###### Quadratic costs for line skipping
-
-
-
-To prevent anyone from using their capital or saved labor tokens to monopolize a resource, the cost of line skipping should increase as a member seeks to hold the item for longer and longer. 
-
-Taking a cue from the concept of [quadratic voting](https://en.wikipedia.org/wiki/Quadratic_voting), we do not prevent the current holder from bidding on the item again, but we do make it increasingly expensive. So, for example, if the bid is for the person currently borrowing the article, and they have consecutively held the thing num_turns, their bid will cost `2^num_turns` more. So your bids become worth ½, then ¼, and ⅛, and so on, as you hold the item more and more turns, but still cost as much.
-
-
-
-This way, the cost to retain an item will quickly increase, promoting turnover while still allowing people to indicate their preferences more granularly than a simple binary on a list or off. 
-
-
-
-
-
-
-
-#### Bonuses
-
-
-
-Certain things should pay a bonus above regular hourly tokens - but this is highly limited, as we, as library socialists, do not want to reintroduce a system of wage slavery. 
-
-
-
-Should bonuses be another token with slightly less use than regular labor tokens?
-
-
-
-Items for bonus
-
-* onerous work - if you have to clean shit, you shouldn’t have to do as long
-
-* automation - If you can design a system to save 100 hours of work, you should get labor vouchers for what you saved to encourage innovation, but we also want to prevent ownership of the machine users by designers  
-
-    * But who determines the amount saved?
-
-* Highly skilled labor - we handle this, when needed, through capital tokens
-
+        <div class="row">
+        <h4>Uses of labor tokens</h4>
+        <div class="row">
+            <h5>Fines and fees</h5>
+            <p>During the use of the library, a member may damage, lose, or return late items. To discourage this, the library can impose fines to remain in good standing and be able to use things and vote. Users pay these fines using labor tokens. If a member does not have labor tokens, they can instead obtain them by donating money or items to the library and exchanging the proceeds of that for labor tokens (discussed under Capital Tokens)</p>
+            <p>A library may also want to create a base cost of use for its members - this membership fee would function exactly as a fine and require labor tokens to pay.</p>
+        </div>
+        <div class="row">
+            <h5>Withdrawals</h5>
+
+            <p>Users may transfer labor tokens for other cryptocurrencies (and eventually to cash) at the library’s
+                discretion. This rate, set democratically by the library as a whole, is the wage rate the library pays
+                people for work. The library must be careful to ensure that it has enough free resources to pay out any
+                labor tokens - and if withdrawals reduce library funds, then this exchange rate should fall. This price
+                mechanism can help to prevent total withdrawals. The library may also set the exchange rate to
+                automatically update with withdrawals, decreasing the exchange value of labor tokens if withdrawal rates
+                increase and lowering the rate if withdrawals reduce.
+            </p>
+        </div>
+        <div class="row">
+            <h5>line skipping auctions</h5>
+            <p>Labor tokens also have another use within the library - line skipping.</p>
+
+            <p>In a library, more members will demand some items than we can supply at once. We usually deal with
+                this through <b>waiting lists</b> - as people use and return the item, the people waiting for the
+                thing get their turn in the order they requested.
+            </p>
+
+            <p>However, to incentivize doing labor for the library, the labor token offers the holders another
+                option - they can instead bid to have the next loan go to someone else.</p>
+
+            <p>Note that in this auction, a person does not have to bid only for themselves - they can bid for
+                someone else to be given the next loan, and the total amount of bids for each person will
+                determine who gets it. This ability to bid for others allows people who wish to work together to
+                borrow library resources they will mutually benefit from while still keeping labor tokens
+                non-transferable.
+            </p>
+            <p>When the current loan expires and the item is marked as ready to loan, the library loans the article
+                to the member who has the most tokens bid for the next turn and transfers any tokens bid for that
+                member to the wallet of the library.
+            </p>
+            <p>Tokens will be held in escrow during an auction to prevent double bidding of the same tokens.</p>
+            <h6>Quadratic costs for line skipping</h6>
+            <p>To prevent anyone from using their capital or saved labor tokens to monopolize a resource, the cost
+                of line skipping should increase as a member seeks to hold the item for longer and longer.
+            </p>
+
+            <p>Taking a cue from the concept of <a href="https://en.wikipedia.org/wiki/Quadratic_voting">quadratic voting</a>,
+                we do not prevent the current holder from bidding on the item again, but we do make it increasingly
+                expensive. So, for example, if the bid is for the person currently borrowing the article, and they have
+                consecutively held the thing num_turns, their bid will cost `2^num_turns` more. So your bids become
+                worth ½, then ¼, and ⅛, and so on, as you hold the item more and more turns, but still cost as much.
+            </p>
+            <p>This way, the cost to retain an item will quickly increase, promoting turnover while still allowing
+                people to indicate their preferences more granularly than a simple binary on a list or off.
+            </p>
+        </div>
+    </div>
+<div class="row">
+    <h4>Bonuses</h4>
+    <p>Certain things should pay a bonus above regular hourly tokens - but this is highly limited, as we, as library
+        socialists, do not want to reintroduce a system of wage slavery.</p>
+    <p>Should bonuses be another token with slightly less use than regular labor tokens?</p>
+    <p>
+        <h5>Items for bonus</h5>
+        <ul>
+        <li>onerous work - if you have to clean shit, you shouldn’t have to do as long</li>
+
+        <li>automation - If you can design a system to save 100 hours of work, you should get labor vouchers for what
+            you saved to encourage innovation, but we also want to prevent ownership of the machine users by designers
+</br>
+            But who determines the amount saved?</li>
+
+        <li>Highly skilled labor - we handle this, when needed, through capital tokens</li>
+        </ul>
 
 
 </div>
-
-### Capital token
+</div>
+<div class="row">
+<h3>Capital token</h3>
 
 
 
@@ -225,10 +202,10 @@ The rate of exchange of capital for labor tokens will be set democratically by t
 
 
 
-
+</div>
 </div>
 
-
+<div class="row">
 ## Example flows
 
 
@@ -341,7 +318,7 @@ The contract should award her $25 in capital tokens a week, in addition to 5hrs 
 
 
 
-
+</div>
 
 ## Frequently Asked Questions
 
