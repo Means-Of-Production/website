@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+// Add variables here to overwrite Bootstrap's SCSS variables (found in bootstrap/scss/_variables.scss), or just new variables we want to use
 $font-family-base: "Poppins", sans-serif;
 $color-dark-theme: #ffffff; // white
 $link-color: #46c2cb;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
+// Add variables to overwrite Bootstrap's plain CSS variables (found in bootstrap/scss/_root.scss)
 :root {
   // controls bg-light background color
   --bs-light-rgb: 255, 255, 255;
   // controls bg-dark background color
   --bs-dark-rgb: 52, 58, 64;
-  // --bs-link-color: #46c2cb;
 }
 
 body {
@@ -22,16 +23,28 @@ h1 {
   margin-top: 4rem !important;
   margin-bottom: 2rem !important;
 }
+
 h2 {
   margin-bottom: 2rem !important;
 }
+
 h3 {
   margin-top: 1.5rem !important;
   margin-bottom: 1rem !important;
 }
+
 ul,
 ol {
   margin-left: 2rem;
+  @media only screen and (max-width: 576px) {
+    margin-left: 1rem;
+  }
+}
+
+li {
+  @media only screen and (max-width: 576px) {
+    padding-right: 1rem;
+  }
 }
 
 hr {
