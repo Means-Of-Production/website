@@ -10797,6 +10797,18 @@ ul,
 ol {
   margin-left: 2rem;
 }
+@media only screen and (max-width: 576px) {
+  ul,
+  ol {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  li {
+    padding-right: 1rem;
+  }
+}
 
 hr {
   margin-top: 2.5rem;
