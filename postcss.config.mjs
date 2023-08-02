@@ -6,9 +6,7 @@ import postcssImport from 'postcss-import';
 import normalize from 'postcss-normalize';
 import postcssSimpleVariables from 'postcss-simple-vars';
 import precss from 'precss';
-
-const prodPlugins = [
-    ];
+import postcssPrettify from 'postcss-prettify';
 
 export default (ctx) => ({
     map: ctx.options.map,
@@ -22,7 +20,7 @@ export default (ctx) => ({
         postcssSimpleVariables(),
         precss(),
         postcssEach(),
-
+        (ctx.env !== 'production') ? postcssPrettify() : {},
         ...(ctx.env === 'production' ? [
             purgecss({
                 content: ['./src/**/*.html']

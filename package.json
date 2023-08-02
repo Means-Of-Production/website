@@ -25,6 +25,7 @@
     "postcss-import": "^15.1.0",
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^9.1.0",
+    "postcss-prettify": "^0.3.4",
     "postcss-simple-vars": "^7.0.1",
     "precss": "^4.0.0",
     "stylelint": "^15.10.2"

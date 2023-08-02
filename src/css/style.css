@@ -4,4 +4,4 @@
 @import "sanitize/typography";
 @import "sanitize/ui-monospace";
 
-@import "./grid.css";
+@import "grid.css";
