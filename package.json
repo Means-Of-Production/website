@@ -1,0 +1,26 @@
+{
+  "name": "Library Socialism",
+  "version": "1.0.0",
+  "description": "#meansofproduction  #librarysocialism",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "css:build": "postcss src/css/style.css --output public/style.css --map",
+    "css:watch": "postcss src/css/style.css --output public/style.css --watch --map",
+    "css:prod": "postcss src/css/style.css --output public/style.min.css --env production --no-map",
+  },
+  "keywords": [],
+  "author": "Library Socialism",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^9.1.0",
+    "precss": "^4.0.0",
+    "stylelint": "^15.10.2"
+  }
+}
