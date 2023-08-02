@@ -7,19 +7,25 @@
     "doc": "docs"
   },
   "scripts": {
-    "css:build": "postcss src/css/style.css --output public/style.css --map",
-    "css:watch": "postcss src/css/style.css --output public/style.css --watch --map",
-    "css:prod": "postcss src/css/style.css --output public/style.min.css --env production --no-map",
+    "css:build": "postcss src/css/style.css --map --dir public",
+    "css:watch": "postcss  src/css/style.css --map --dir public --watch",
+    "css:prod": "postcss src/css/style.css --env production --no-map --output public/style.min.css"
   },
   "keywords": [],
   "author": "Library Socialism",
   "license": "GPL-3.0",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "cross-env": "^7.0.3",
     "cssnano": "^6.0.1",
     "postcss": "^8.4.27",
     "postcss-cli": "^10.1.0",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-each": "^1.1.0",
+    "postcss-import": "^15.1.0",
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^9.1.0",
+    "postcss-simple-vars": "^7.0.1",
     "precss": "^4.0.0",
     "stylelint": "^15.10.2"
   }

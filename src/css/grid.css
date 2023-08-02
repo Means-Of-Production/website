@@ -1,0 +1,8 @@
+$loop-begin: 1;
+$loop-stop:  3;
+
+@for $cursor from $loop-begin to $loop-stop {
+    .m-$(cursor) {
+        margin: $(cursor)px;
+    }
+}
